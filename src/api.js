@@ -3,7 +3,12 @@ import {NASA_API_KEY} from "./secrets";
 const API_URL_BASE = "https://api.nasa.gov/planetary/apod";
 
 export const getPictureOfTheDay = async () => {
-    const apiUrl = `${API_URL_BASE}?api_key=${NASA_API_KEY}`;
+    const apiUrl = `${API_URL_BASE}?api_key=${NASA_API_KEY}`;   ////string templating
+    
+    const apiUrl2 = API_URL_BASE + "?api_key" + NASA_API_KEY; 
+    //another way to string template
+    //could lead to coercion, issues if the variables are numbers
+    
     const response = await fetch(apiUrl);
 
     console.log('response from NASA: ', response);
