@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dmacc-nasa-apod/static/css/main.a769e8bc.css",
+    "main.js": "/dmacc-nasa-apod/static/js/main.898a795e.js",
+    "static/js/787.4b798eec.chunk.js": "/dmacc-nasa-apod/static/js/787.4b798eec.chunk.js",
+    "static/media/logo.svg": "/dmacc-nasa-apod/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/dmacc-nasa-apod/index.html",
+    "main.a769e8bc.css.map": "/dmacc-nasa-apod/static/css/main.a769e8bc.css.map",
+    "main.898a795e.js.map": "/dmacc-nasa-apod/static/js/main.898a795e.js.map",
+    "787.4b798eec.chunk.js.map": "/dmacc-nasa-apod/static/js/787.4b798eec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a769e8bc.css",
+    "static/js/main.898a795e.js"
+  ]
+}
